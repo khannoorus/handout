@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+	<persistence-unit name="PU" transaction-type="RESOURCE_LOCAL" >
+	<class>com.handout.model.UserProfile</class>
+	<class>com.handout.model.GroupProfile</class>	
+	<class>com.handout.model.Transactions</class>
+	<class>com.handout.model.Contributor</class>
+	<class>com.handout.model.ProfileActivation</class>
+	<class>com.handout.model.EmailLinkActivation</class>
+	<exclude-unlisted-classes>false</exclude-unlisted-classes>
+</persistence-unit>
+</persistence>  
